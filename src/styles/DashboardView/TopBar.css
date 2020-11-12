@@ -1,0 +1,37 @@
+.top-bar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* background-color: #e56024; */
+    background-color: #186bbe;
+    width: 99%;
+    min-height: 50px;
+    z-index: 500;
+    margin: 1% auto;
+    border-radius: 5px;
+    box-shadow: #a8a9ab 0px 1px 15px 3px;
+}
+.top-bar-title {
+    color: #dfe6f1;
+    float: left;
+    padding-left: 50px;
+}
+.top-bar .icons-right {
+    float: right;
+    padding-right: 50px;
+    list-style: none;
+}
+.top-bar .icons-right .icon {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 25px;
+    color: #dfe6f1;
+}
+.top-bar .icons-right .icon:hover {
+    color: white;
+    cursor: pointer;
+}
+.top-bar .icons-right .icon,
+.top-bar .icons-right .icon:hover {
+    transition: 700ms ease-out;
+}

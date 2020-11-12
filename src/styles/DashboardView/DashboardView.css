@@ -1,0 +1,62 @@
+.dashboard-wrapper {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: block;
+}
+.mail-sub-wrapper {
+    position: absolute;
+    width: 30vw;
+    min-width: 360px;
+    top: 45%;
+    margin-left: 10%;
+    transform: translateY(-50%);
+}
+.mail-sub-wrapper h1 {
+    font-size: 35px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+.mail-sub-wrapper p {
+    font-size: 15px;
+    margin: 0;
+    padding-left: 10px;
+}
+.mail-sub-wrapper p:last-of-type {
+    margin-top: 5px;
+}
+.mail-sub-wrapper form {
+    margin-top: 35px;
+}
+.mail-sub-wrapper form * {
+    display: block;
+    margin-bottom: 10px;
+}
+.mail-sub-wrapper form label {
+    font-weight: bold;
+}
+.mail-sub-wrapper form input {
+    font-size: 15px;
+    text-indent: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(204, 204, 204);
+}
+.mail-sub-wrapper form button {
+    font-size: 15px;
+    color: white;
+    background-color: #6595ff;
+    border-color: #588dff;
+    border-radius: 4px;
+}
+.mail-sub-wrapper form button:hover {
+    background-color: #588dff;
+}
+.mail-sub-wrapper form button,
+.mail-sub-wrapper form button:hover {
+    transition: background-color 150ms linear;
+}
+.mail-sub-wrapper form input,
+.mail-sub-wrapper form button {
+    width: 300px;
+    padding: 5px 0;
+}
